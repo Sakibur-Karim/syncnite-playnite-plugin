@@ -104,7 +104,7 @@ namespace PlayniteCloudSync
         // setting just gave stale/mistyped values a way to silently break sync (a saved
         // pre-migration syncnite.vercel.app value kept overriding this default even after the
         // code-level default moved to syncnite.com).
-        public const string DefaultBaseUrl = "https://syncnite.com";
+        public const string DefaultBaseUrl = "https://34-68-3-98.sslip.io/";
 
         private readonly string apiBaseUrl;
         private readonly string deviceToken;
